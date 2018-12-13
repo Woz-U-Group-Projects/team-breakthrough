@@ -18,6 +18,9 @@
   "homepage": "https://github.com/Woz-U-Group-Projects/team-breakthrough#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "react": "^16.6.3"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1"
   }
 }
