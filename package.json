@@ -1,0 +1,23 @@
+{
+  "name": "team-breakthrough",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Woz-U-Group-Projects/team-breakthrough.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Woz-U-Group-Projects/team-breakthrough/issues"
+  },
+  "homepage": "https://github.com/Woz-U-Group-Projects/team-breakthrough#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "react": "^16.6.3"
+  }
+}
