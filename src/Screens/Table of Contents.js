@@ -1,8 +1,10 @@
 import React from 'react';
-import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const TableofContents = () => (
-  <Header title="Table of Contents" />
+  <div>
+    <Footer title_1="Footer" />
+  </div>  
 )
 
 export default TableofContents;
