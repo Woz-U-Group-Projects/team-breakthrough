@@ -2,14 +2,17 @@ import React from 'react';
 import { render } from 'react-dom';
 import Home from '../src/screens/Home';
 import TableofContents from '../src/screens/Table of Contents';
-import Topics from '../src/screens/Topics';
+import Anders from '../src/screens/Anders';
+import Lori from '../src/screens/Lori';
 
 const Index = ({ pathname }) => {
   switch(pathname) {
     case "/tableofcontents":
       return <TableofContents />;
-    case "/topics":
-      return <Topics />;
+    case "/anders":
+      return <Anders />;
+    case "/lori":
+      return <Lori />;  
     default:
       return <Home />;
   }
