@@ -4,24 +4,37 @@ import Home from '../src/screens/Home';
 import TableofContents from '../src/screens/Table of Contents';
 import Anders from '../src/screens/Anders';
 import Lori from '../src/screens/Lori';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-const Index = ({ pathname }) => {
-  switch(pathname) {
-    case "/tableofcontents":
-      return <TableofContents />;
-    case "/anders":
-      return <Anders />;
-    case "/lori":
-      return <Lori />;  
-    default:
-      return <Home />;
-  }
-};
+const App = () => (
+  <Router>
+    <div>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/tableofcontents">Table of Contents</Link>
+        </li>
+        <li>
+          <Link to="/anders">Anders</Link>
+        </li>
+        <li>
+          <Link to="/lori">Lori</Link>
+        </li>  
+      </ul>
 
-let pathname = window.location.pathname;
+      <hr />
 
-render(<Index pathname={pathname} />, document.getElementById("root"));
+      <Route path="/" component={Home} />
+      <Route path="/tableofcontents" component={TableofContents} />
+      <Route path="/anders" component={Anders} />
+      <Route path="/lori" component={Lori} />
+    </div>
+  </Router>
+);
 
- window.addEventListener("popstate", () => {
-  pathname = window.location.pathname;
-});
+render(
+  <App />,
+  document.getElementById('root')
+);
