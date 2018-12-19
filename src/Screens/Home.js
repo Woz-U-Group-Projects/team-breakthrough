@@ -5,7 +5,6 @@ import Footer from '../components/Footer';
 
 const Home = () => (
   <div>
-    <Footer title_1="Footer - THE home page FOOTER" />
     {/* <Experiment experiment = "experiment" />  */}
   </div>  
 )

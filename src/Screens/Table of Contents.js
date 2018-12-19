@@ -1,12 +1,28 @@
 import React from 'react';
-import Footer from '../components/Footer'; 
+import Home from './home';
+import Anders from './anders';
+import Lori from './lori';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"; 
 
 const TableofContents = () => (
-  <div>
-    <h3>ROUTE to Anders</h3>
-    <h3>ROUTE to Lori</h3>
-    <Footer title_1="Footer" />
-  </div>  
+  <Router>
+    <div>
+      <ul>
+        <li>
+          <Link to="/anders">Anders</Link>
+        </li>
+        <li>
+          <Link to="/lori">Lori</Link>
+        </li>  
+      </ul>
+
+      <hr />
+
+      <Route path="/" component={Home} />
+      <Route path="/anders" component={Anders} />
+      <Route path="/lori" component={Lori} />
+    </div>
+  </Router>  
 )
 
 export default TableofContents;
