@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../components/Footer';
+import Footer from '../Components/Footer';
 
 
 const Lori = () => (
@@ -9,7 +9,6 @@ const Lori = () => (
           <li>GIT: LDeCoder</li>
           <li>Email: LDeCoder806@gmail.com</li>
         </ul>
-        <Footer title_1="This is the footer on Lori's page!" />
     </div>    
 
 )

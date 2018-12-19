@@ -15,12 +15,6 @@ const App = () => (
         </li>
         <li>
           <Link to="/tableofcontents">Table of Contents</Link>
-        </li>
-        <li>
-          <Link to="/anders">Anders</Link>
-        </li>
-        <li>
-          <Link to="/lori">Lori</Link>
         </li>  
       </ul>
 
