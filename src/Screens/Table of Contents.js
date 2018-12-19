@@ -1,7 +1,7 @@
 import React from 'react';
-import Home from './home';
-import Anders from './anders';
-import Lori from './lori';
+import Home from './Home';
+import Anders from './Anders';
+import Lori from './Lori';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"; 
 
 const TableofContents = () => (
