@@ -1,8 +1,10 @@
 import React from 'react';
-import Footer from '../Components/Footer';
+import Header from '../Components/Header';
+import LoriStyles from './LoriStyles.css';
 
 const Lori = () => (
-    <div>       
+    <div className="div">
+        <Header title="Welcome to my Portfolio" />       
         <h1>Lori Davis</h1>
         <ul>
           <li>GIT: LDeCoder</li>

@@ -3,10 +3,12 @@ import Home from './Home';
 import Anders from './Anders';
 import Lori from './Lori';
 import Developer from './Developer';
+import Header from '../Components/Header';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"; 
 
 const TableofContents = () => (
   <div>
+    <Header title="Pick a link to explore" />
     
   <Router>
     <div>

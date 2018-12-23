@@ -1,11 +1,9 @@
 import React from 'react';
-import Footer from '../Components/Footer';
-// import Experiment from '../Components/Experiment';
+import Header from '../Components/Header';
 
 
 const Home = () => (
   <div>
-    {/* <Experiment experiment = "experiment" />  */}
   </div>  
 )
 
