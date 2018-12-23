@@ -1,14 +1,15 @@
 import React from 'react';
-import Footer  from '../Components/Footer';
+import Header  from '../Components/Header';
 
 const Anders = () => (
-      <div>
+    <div>
+      <Header className="Header" title="Welcome to my Portfolio" />        
         <h1 className = "title">Anders Kornkven</h1>
           <ul>
             <li>GIT: Anders44</li>
             <li>Email: AndersKornkven@gmail.com</li>
           </ul>
-        </div>
+    </div>
       )
 
 export default Anders;

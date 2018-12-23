@@ -4,6 +4,7 @@ import Home from '../src/screens/Home';
 import TableofContents from '../src/screens/Table of Contents';
 import Anders from '../src/screens/Anders';
 import Lori from '../src/screens/Lori';
+import Developer from '../src/screens/Developer';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const App = () => (
@@ -24,6 +25,7 @@ const App = () => (
       <Route path="/tableofcontents" component={TableofContents} />
       <Route path="/anders" component={Anders} />
       <Route path="/lori" component={Lori} />
+      <Route path="/developer" component={Developer} />
     </div>
   </Router>
 );
