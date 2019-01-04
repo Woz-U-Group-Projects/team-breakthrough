@@ -4,7 +4,8 @@ import DeveloperStyles from './DeveloperStyles.css';
 
 const Developer = () => (
     <div>
-        <Header title="Welcome new Developer!" />
+        <Header/>
+        <h1 className="Title"> Welcome new Developer!</h1>
     </div>
 )
 
