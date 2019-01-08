@@ -1,0 +1,19 @@
+.Title {
+    display: flex;
+    justify-content: center;
+}
+
+.div {
+    border: black thick 5px;
+    color: blue;
+}
+
+.row {
+    display: flex;
+    align-content: center;
+}
+
+.Wyoming {
+    height: 300px;
+    width: 250px;
+}

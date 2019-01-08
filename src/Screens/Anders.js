@@ -1,14 +1,27 @@
 import React from 'react';
-import Footer  from '../Components/Footer';
+import Header  from '../Components/Header';
+import AndersStyles from './AndersStyles.css';
+import Wyoming from '../Images/Wyoming.jpg';
 
 const Anders = () => (
-      <div>
-        <h1 className = "title">Anders Kornkven</h1>
-          <ul>
-            <li>GIT: Anders44</li>
-            <li>Email: AndersKornkven@gmail.com</li>
-          </ul>
+    <div>
+      <Header/>
+      <h1 className="Title">Welcome to my Portfolio!</h1>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-3">
+          <img className="Wyoming" src={require('../Images/Wyoming.jpg')}  />
+            <p>My name is Anders Kornkven. I live in Laramie, Wyoming.</p>
+          </div>
+          <div className="col-lg-5">
+            <p> How big does this space get. I want to see the size of this box. </p>
+          </div>
+          <div className="col-lg-4">
+            <p>This is the third box in the row. </p>
+          </div>
         </div>
+      </div>
+    </div>
       )
 
 export default Anders;
