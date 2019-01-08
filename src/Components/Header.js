@@ -10,7 +10,7 @@ const Header = () => (
             <ul className="nav navbar-nav">
                 <li><a href="/Anders">Anders</a></li>
                 <li><a href="/Lori">Lori</a></li>
-                <li><a href="/Developer">New Developer</a></li>
+                <li><a href="/Developer">Contact Us</a></li>
             </ul>
         </div>
         </nav>

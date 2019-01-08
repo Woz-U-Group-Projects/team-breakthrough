@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .Title {
     display: flex;
     justify-content: center;
@@ -16,4 +21,13 @@
 .Wyoming {
     height: 300px;
     width: 250px;
+}
+
+.Background {
+    background-image: url('../Images/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
 }

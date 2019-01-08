@@ -3,7 +3,7 @@ import Header from '../Components/Header';
 import LoriStyles from './LoriStyles.css';
 
 const Lori = () => (
-    <div className="div">
+    <div>
         <Header/>       
         <h1>Lori Davis</h1>
         <ul>
