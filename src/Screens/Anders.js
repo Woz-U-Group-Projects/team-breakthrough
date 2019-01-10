@@ -5,19 +5,29 @@ import Wyoming from '../Images/Wyoming.jpg';
 
 const Anders = () => (
     <div>
-      <Header/>
       <header className="Background">
-      <h1 className="Title">Welcome to my Portfolio!</h1>
+      <Header/>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className="Title">
+        <h1>Team Breakthrough</h1>
+        <h3>Welcome to my Portfolio</h3>
+      </div>
       </header>
-      <div className="container">
+      <div className="container-2">
         <div className="row">
           <div className="col-lg-3">
+            <h3>About Me</h3>
             <p>My name is Anders Kornkven. I live in Laramie, Wyoming.</p>
           </div>
           <div className="col-lg-5">
+            <h3>Skills</h3>
             <p> How big does this space get. I want to see the size of this box. </p>
           </div>
           <div className="col-lg-4">
+            <h3>Current Projects</h3>
             <p>This is the third box in the row. </p>
           </div>
         </div>

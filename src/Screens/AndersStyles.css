@@ -3,9 +3,16 @@
     padding: 0;
 }
 
+.Angry {
+    margin: 0;
+    padding: 0;
+}
+
 .Title {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .div {
@@ -18,16 +25,35 @@
     align-content: center;
 }
 
-.Wyoming {
-    height: 300px;
-    width: 250px;
-}
-
 .Background {
     background-image: url('../Images/Background.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+.nav {
+    display: flex;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    color: black !important;
+    border-radius: 10px !important;
+    padding: 10px 20px;
+}
+
+.container-1 {
     display: flex;
     justify-content: center;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    background: #DAE7FA;
+
 }
