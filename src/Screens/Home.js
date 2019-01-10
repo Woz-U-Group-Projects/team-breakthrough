@@ -5,12 +5,20 @@ import brLogo from '../Images/brLogo.png';
 
 
 const Home = () => (
-  <div>
+  <div className ="body">
     <Header/>
     <img className="brLogo" src={require('../Images/brLogo.png')}  />
-    <p>This is our homepage. Add content here. </p>
-    <p>Why would this render the home screen a second time?!?</p>
-  </div>  
+ 
+        <div className="box">
+            <div className="box1"></div>
+            <div className="box2"></div>
+            <div className="box3"></div>
+        </div>
+ 
+        <footer className="Developers">
+            <p>Click the links above to meet TEAM BREAKTHROUGH</p>
+        </footer>
+  </div>
 )
 
 export default Home;
