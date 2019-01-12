@@ -4,8 +4,8 @@ import LoriStyles from "./LoriStyles.css";
 // import LDClove2code from '.../Images/LDClove2code.png';
 
 const Lori = () => (
-
-<div className="div">
+LoriReact
+<div className="LDiv">
     <Header />
 
         <div className="jumbotron text-center">
@@ -38,7 +38,7 @@ const Lori = () => (
 
 
             <div className="skills">
-        <div className="container">
+        <div className="LDcontainer">
            <div className="col-lg-4">
             <div className="teamBreakthrough">
                 <h2>Proud member of</h2>
