@@ -1,5 +1,5 @@
 .div {
-    background-color: rgb(213, 233, 233);
+    background-color: rgb(220, 220, 220);
     color: teal;
     padding: 1%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -14,7 +14,7 @@
 }
 
 .container {
-    display: flex;
+    display: block;
 }
 
 .jumbotron {
@@ -67,5 +67,10 @@ h1:hover {
 
   .col-lg-4 {
       align-content: flex-start;
+  }
+
+  .logo {
+      background-color: black;
+     margin-left: 60%;
   }
  
