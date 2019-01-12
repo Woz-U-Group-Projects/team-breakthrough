@@ -4,16 +4,15 @@ import AndersStyles from './AndersStyles.css';
 import Wyoming from '../Images/Wyoming.jpg';
 
 const Anders = () => (
-    <div>
+    <div className="Anders">
       <header className="Background">
       <Header/>
       <br />
       <br />
       <br />
-      <br />
       <div className="Title">
         <h1>Team Breakthrough</h1>
-        <h3>Welcome to my Portfolio</h3>
+        <h3>By Anders Kornkven</h3>
       </div>
       </header>
       <div className="container-2">
