@@ -11,7 +11,7 @@ LoriReact
         <div className="jumbotron text-center">
             <div className="zoom2">
                 <h1>I am an aspiring jr. developer</h1> 
-                    <img className="LDClove2code" src={require("/Users/loridavis/Desktop/finalProjectTeamBreakthrough/team-breakthrough/src/Images/LDClove2code.png")} width="40%"/>
+                    <img className="LDClove2code" src={require("../Images/LDClove2code.png")} width="50%"/>
                 <h1>eager to make your life easier! </h1>
             </div>
         </div>
@@ -20,17 +20,20 @@ LoriReact
       
 
         <div className="skills">
+        <div className="container">
                 <div className="col-lg-6">
                     <h2>My Favorites:</h2>
                     <p className="story"> HTML | CSS with animations | Java | Eclipse | Spring Suite | SQL and noSQL | Adobe Illustrator</p>
                 </div>
+                
 
 
                 <div className="col-lg-6">
                     <h2>I'm Learning:</h2>
                     <p className="story">React | Flexbox | Bootstrap | jQuery | Keynote animations</p>
                 </div>
-            </div>
+        </div>
+         </div>
 
 
 
@@ -38,9 +41,9 @@ LoriReact
         <div className="container">
            <div className="col-lg-4">
             <div className="teamBreakthrough">
-                <h2>I'm a proud member of</h2>
+                <h2>Proud member of</h2>
                 <img className="breakthroughGreyTeal"
-                src={require("/Users/loridavis/Desktop/finalProjectTeamBreakthrough/Lori.portfolio/FINALprojectIMAGES/BreakThroughLogoGreyTeal.png")} height="68%" width="68%" />
+                src={require("../Images/BreakThroughLogoGreyTeal.png")} height="68%" width="68%" />
                 <h2>
                 <strong> Team Breakthrough!</strong>
                 </h2>
@@ -69,17 +72,22 @@ LoriReact
                 you know what ~ <strong>The MISSION is greater than the CODE!</strong></p>
            </div>
           </div>
+          {/* <div className="col-lg-4">
+            <img className="me" src={require("../Images/LDeCoderLOGO.png")} width="60%" height="60%" />
+           </div> */}
         </div>
 
-
-        <div className="col-lg-4">
-            <img className="me" src={require("/Users/loridavis/Desktop/finalProjectTeamBreakthrough/Lori.portfolio/FINALprojectIMAGES/LDeCoderLOGO.png")} width="80%" height="80%" />
         </div>
 
-      </div>
+       <div className="Logo">
+        <div className="col-lg-12">
+            <img className="me" src={require("../Images/LDeCoderLOGO.png")} width="30%" height="30%" />
+        </div> 
+       </div>
 
-            
 </div>
+
+      
 
 );
 
