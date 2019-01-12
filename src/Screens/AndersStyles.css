@@ -22,11 +22,6 @@
     padding: 10px 20px;
 }
 
-.div {
-    border: black thick 5px;
-    color: blue;
-}
-
 .row {
     display: flex;
     align-content: center;
@@ -39,8 +34,14 @@
     height: 100vh;
 }
 
-.nav {
+.navheader {
     display: flex;
+    justify-content: end;
+}
+
+.nav {
+    display: flex !important;
+    justify-content: end !important;
     background: transparent;
     border: none;
     text-decoration: none;

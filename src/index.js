@@ -1,15 +1,12 @@
 import React from 'react';
 import { render } from 'react-dom';
 import Home from '../src/screens/Home';
-import TableofContents from '../src/screens/Table of Contents';
 import Anders from '../src/screens/Anders';
 import Lori from '../src/screens/Lori';
 import Developer from '../src/screens/Developer';
 
 const Index = ({ pathname }) => {
   switch(pathname) {
-    case "/TableofContents":
-      return <TableofContents />;
     case "/Anders":
       return <Anders />;
     case "/Lori":

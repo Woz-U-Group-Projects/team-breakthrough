@@ -4,7 +4,7 @@ import LoriStyles from "./LoriStyles.css";
 // import LDClove2code from '.../Images/LDClove2code.png';
 
 const Lori = () => (
-LoriReact
+
 <div className="div">
     <Header />
 
