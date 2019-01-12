@@ -1,4 +1,5 @@
 import React from "react";
+import './React.css/';
 
 class Developer extends React.Component {
   render () {
