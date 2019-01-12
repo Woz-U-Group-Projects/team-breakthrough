@@ -1,4 +1,4 @@
-.div {
+.LDiv {
     background-color: rgb(220, 220, 220);
     color: teal;
     padding: 1%;
@@ -13,7 +13,7 @@
     color: pink;
 }
 
-.container {
+.LDcontainer {
     display: block;
 }
 

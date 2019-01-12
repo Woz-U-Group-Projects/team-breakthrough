@@ -5,7 +5,7 @@ import LoriStyles from "./LoriStyles.css";
 
 const Lori = () => (
 LoriReact
-<div className="div">
+<div className="LDiv">
     <Header />
 
         <div className="jumbotron text-center">
@@ -38,7 +38,7 @@ LoriReact
 
 
             <div className="skills">
-        <div className="container">
+        <div className="LDcontainer">
            <div className="col-lg-4">
             <div className="teamBreakthrough">
                 <h2>Proud member of</h2>
