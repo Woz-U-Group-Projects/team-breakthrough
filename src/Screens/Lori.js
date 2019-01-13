@@ -9,9 +9,9 @@ const Lori = () => (
 
         <div className="jumbotron text-center">
             <div className="zoom2">
-                <h1>I am an aspiring jr. developer</h1> 
+                <h1 className="LDh1">I am an aspiring jr. developer</h1> 
                     <img className="LDClove2code" src={require("../Images/LDClove2code.png")} width="50%"/>
-                <h1>eager to make your life easier! </h1>
+                <h1 className="LDh1">eager to make your life easier! </h1>
             </div>
         </div>
 
@@ -20,16 +20,16 @@ const Lori = () => (
 
         <div className="skills">
         <div className="container">
-                <div className="col-lg-6">
-                    <h2>My Favorites:</h2>
-                    <p className="story"> HTML | CSS with animations | Java | Eclipse | Spring Suite | SQL and noSQL | Adobe Illustrator</p>
+                <div className="col-md-4">
+                <h2>I'm Learning:</h2>
+                    <p className="story">React | Flexbox | Bootstrap | jQuery | and more!</p>
                 </div>
                 
 
 
-                <div className="col-lg-6">
-                    <h2>I'm Learning:</h2>
-                    <p className="story">React | Flexbox | Bootstrap | jQuery | Keynote animations</p>
+                <div className="col-lg-8">
+                <h2>My Favorites:</h2>
+                    <p className="story"> HTML | CSS animations | Java | Eclipse | Spring Suite | SQL | noSQL | Adobe Illustrator | Keynote animations</p>
                 </div>
         </div>
          </div>
@@ -38,7 +38,7 @@ const Lori = () => (
 
             <div className="skills">
         <div className="LDcontainer">
-           <div className="col-lg-4">
+           <div className="col-md-4">
             <div className="teamBreakthrough">
                 <h2>Proud member of</h2>
                 <img className="breakthroughGreyTeal"

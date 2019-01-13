@@ -42,7 +42,7 @@
     justify-content: left;
   }
 
-h1:hover {
+.LDh1:hover {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
@@ -65,7 +65,7 @@ h1:hover {
    font-size: xx-large;
   }
 
-  .col-lg-4 {
+  .col-md-4 {
       align-content: flex-start;
   }
 
