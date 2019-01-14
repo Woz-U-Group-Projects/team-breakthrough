@@ -98,7 +98,7 @@ p {
 /* HOMEPAGE ANIMATIONS */
 @keyframes ld{
    0%      {right: -150%}
-   100%    {right: 15%}
+   100%    {right: 16%}
 }
 
 .box2:after {
