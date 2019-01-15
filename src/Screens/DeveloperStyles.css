@@ -3,7 +3,18 @@
     justify-content: center;
 }
 
+.ContactBackground {
+    background-image: url('../Images/BTthankYou.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
 form {
     display: flex;
     justify-content: center;
 }
+
+
+

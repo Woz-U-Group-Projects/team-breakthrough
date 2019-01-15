@@ -18,8 +18,9 @@ class Developer extends Component {
     
     <div>
         <Header/>
-        <h1 className="Title"> Please leave your name and information</h1>
+        <h2 className="Title"> Please leave your name and information</h2>
         <Form onSubmit={fields => this.onSubmit(fields)}/>
+        <div className="ContactBackground"></div>
     </div>
         );
     }
