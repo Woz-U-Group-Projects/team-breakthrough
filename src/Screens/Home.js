@@ -5,7 +5,8 @@ import brLogo from '../Images/brLogo.png';
 
 
 const Home = () => (
-  <div className ="body">
+  <div className ="Home">
+    <div className="HomeImage">
     <Header/>
     <img className="brLogo" src={require('../Images/brLogo.png')}  />
  
@@ -15,10 +16,13 @@ const Home = () => (
             <div className="box3"></div>
         </div>
  
-        <footer className="Developers">
+        {/* <footer className="Developers">
             <p>Click the links above to meet TEAM BREAKTHROUGH</p>
-        </footer>
+        </footer> */}
+        
   </div>
+</div>
+  
 )
 
 export default Home;

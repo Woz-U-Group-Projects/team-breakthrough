@@ -1,12 +1,17 @@
 import React from 'react';
+import axios from 'axios';
+
 
 class Form extends React.Component {
-  state = {
+
+  constructor(props) {
+    super(props);
+    this.state = {
     firstName: '',
     lastName: '',
     email: '',
     comment: '',
-  };
+  };}
 
   change = e => {
     this.setState({
@@ -16,6 +21,7 @@ class Form extends React.Component {
 
   onSubmit = (e) => {
     e.preventDefault();
+    axios.post("http://localhost:8081", {firstName: this.state.firstName, lastName: this.state.lastName, email: this.state.email, comment: this.state.comment});
     this.props.onSubmit(this.state)
     this.setState({
       firstName: '',
@@ -24,6 +30,8 @@ class Form extends React.Component {
       comment: '',
     })
   };
+
+
 
   render() {
     return (
