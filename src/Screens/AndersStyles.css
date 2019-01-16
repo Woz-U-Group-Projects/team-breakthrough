@@ -12,6 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .row {
@@ -26,11 +27,6 @@
     height: 100vh;
 }
 
-.navheader {
-    display: flex;
-    justify-content: end;
-}
-
 .nav {
     display: flex !important;
     justify-content: end !important;
@@ -41,19 +37,20 @@
 }
 
 a {
-    color: black !important;
+    color: white;
     border-radius: 10px !important;
     padding: 10px 20px;
 }
 
-.container-1 {
+.item2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.container-2 {
+.item1 {
     display: flex;
     justify-content: center;
-    background: #DAE7FA;
-
+    align-items: space-between;
+    padding-right: 25px;
+    color: white;
 }

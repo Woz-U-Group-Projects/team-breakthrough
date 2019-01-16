@@ -8,12 +8,20 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
+    z-index: -1;
 }
 
 
 form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item3 {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
