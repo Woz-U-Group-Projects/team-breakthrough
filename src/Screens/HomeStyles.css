@@ -1,6 +1,4 @@
-.nav {
-    color: teal;
-}
+
 
 .brLogo {
     /* height: 200px;
@@ -25,24 +23,21 @@ p {
     font-size: large;
     margin-left: 55%;
 }
-.body {
+.HomeImage {
     background-image: url('../Images/BThome.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
     /* position: fixed; */ 
+}
+.Home {
     color: rgb(37, 63, 103);
     padding: 1%;
-  
-    /* align-content: left; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    line-height:.5;
-    z-index: 1;
+    
+      z-index: 1;
     /* ANIMATIONS */
     animation: ak;
     animation-duration: 3s;
-   
 }
 
 @keyframes ak{
