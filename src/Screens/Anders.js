@@ -10,27 +10,78 @@ const Anders = () => (
       <br />
       <br />
       <br />
-      <div className="Title">
-        <h1>Team Breakthrough</h1>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <title className="Title">
+        <h1>A Portfolio</h1>
         <h3>By Anders Kornkven</h3>
-      </div>
+      </title>
       </header>
-      <div className="container-2">
-        <div className="row">
-          <div className="col-lg-3">
-            <h3>About Me</h3>
-            <p>My name is Anders Kornkven. I live in Laramie, Wyoming.</p>
-          </div>
-          <div className="col-lg-5">
-            <h3>Skills</h3>
-            <p> How big does this space get. I want to see the size of this box. </p>
-          </div>
-          <div className="col-lg-4">
-            <h3>Current Projects</h3>
-            <p>This is the third box in the row. </p>
+      <div className="container cont0">
+        <div className="row row1">
+          <div className="col-lg-12">
+          <h3>About Me</h3>
+          <section>
+            I am living in Laramie, Wyoming. 
+          </section>
           </div>
         </div>
       </div>
+
+      <div className="container cont1">
+        <div className="row row1">
+          <div className="col-lg-12 pics1">
+          <img className="img1" src={require ("../Images/Illinois.jpg")}/>
+          <figcaption>The Corn Fields of Illinois</figcaption>
+          <img className="img1" src={require ("../Images/South Dakota.jpg")}/>
+          <figcaption>Mount Rushmore, South Dakota</figcaption>
+          <img className="img1" src={require ("../Images/Colorado Springs.jpg")}/>
+          <figcaption> US Air Force Academy, Colorado Springs, Colorado</figcaption>
+
+          </div>
+        </div>
+      </div>
+
+      <div className="container cont2">
+        <div className="row row1">
+          <div className="col-lg-4">
+            <h3>Skills</h3>
+            <section>My name is Anders Kornkven. I live in Laramie, Wyoming.</section>
+          </div>
+          <div className="col-lg-4">
+            <h3>What I am Learning</h3>
+            <section> How big does this space get. I want to see the size of this box. </section>
+          </div>
+          <div className="col-lg-4">
+            <h3>Goals</h3>
+            <section>This is the third box in the row. </section>
+          </div>
+        </div>
+      </div>
+
+      <div className="container-2 cont3">
+        <div className="row row1">
+          <div className="col-lg-4">
+            <h3> content </h3>
+          </div>
+          <div className="col-lg-4">
+            <h3> content </h3>
+          </div>
+          <div className="col-lg-4">
+            <h3> content </h3>
+          </div>
+        </div>
+      </div>
+
+      <footer className="footer">
+        This is where the footer will be.
+      </footer>  
+
+
+
     </div>
       )
 
