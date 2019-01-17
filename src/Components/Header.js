@@ -26,6 +26,7 @@ const Header = () => (
             </a>
         </div>
         <ul className="nav navbar-nav navbar-right item2">
+            <li><a className="item1" href="/">Home</a></li>
             <li><a className="item1" href="/Anders">Anders</a></li>
             <li><a className="item1" href="/Lori">Lori</a></li>
             <li><a className="item1" href="/Developer">Contact Us</a></li>
