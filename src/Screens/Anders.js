@@ -25,7 +25,13 @@ const Anders = () => (
           <div className="col-lg-12">
           <h3>About Me</h3>
           <section>
-            I am living in Laramie, Wyoming. 
+            I am Anders Kornkven.
+            I have the blessing and the curse of living all around the United States. <br />
+            I feel like I am from everywhere and nowhere at the same time. <br />
+            I was born in Illinois, but I've also lived in South Dakota, Colorado, Alaska, California, Ohio, and Wyoming (twice!). <br />
+            I currently call home Laramie, Wyoming.
+
+
           </section>
           </div>
         </div>
