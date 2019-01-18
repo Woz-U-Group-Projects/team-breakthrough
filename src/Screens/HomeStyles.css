@@ -1,10 +1,10 @@
-
+/* PAGE IS WORKING!! 
+????? ARE YOU SURE YOU WANT TO MAKE ANY CHANGES??????? */
 
 .brLogo {
     /* height: 200px;
     width: 200px; */
     width: 20%;
-    padding-bottom: 35%;
     position: absolute;
     z-index: 1;
     margin-left: 63%;
@@ -30,19 +30,6 @@ p {
     height: 100vh;
     /* position: fixed; */ 
 }
-.Home {
-    color: rgb(37, 63, 103);
-    
-      z-index: 1;
-    /* ANIMATIONS */
-    animation: ak;
-    animation-duration: 3s;
-}
-
-@keyframes ak{
-    0%      {opacity: 0}
-    100%    {opacity: 1}  
-}
 
 .box1:before{
     width: 25%;
@@ -63,7 +50,7 @@ p {
 
 @keyframes ak{
     0%      {left: -150%}
-    100%    {left: 1%}  
+    100%    {left: 0%}  
 }
 
 
@@ -92,7 +79,7 @@ p {
 /* HOMEPAGE ANIMATIONS */
 @keyframes ld{
    0%      {right: -150%}
-   100%    {right: 16%}
+   100%    {right: 17%}
 }
 
 .box2:after {
@@ -121,7 +108,7 @@ p {
 
 @keyframes ak{
     0%      {left: -150%}
-    100%    {left: 1%}  
+    100%    {left: 0%}  
 }
 
 .box3::after{

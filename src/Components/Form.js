@@ -36,13 +36,14 @@ class Form extends React.Component {
   render() {
     return (
       <form>
-        <input
+        <label>NAME</label>
+        <input className="blah blah blah"
         name="firstName"
         placeholder='First name'
         value={this.state.firstName}
         onChange={e => this.change(e)}
         />
-        <br />
+        {/* <br /> */}
         <input
         name="lastName"
         placeholder='Last name'
@@ -50,6 +51,7 @@ class Form extends React.Component {
         onChange={e => this.change(e)}
         />
         <br />
+        <label>EMAIL</label>
         <input
         name="email"
         placeholder='Email'
@@ -57,14 +59,19 @@ class Form extends React.Component {
         onChange={e => this.change(e)}
         />
         <br />
-        <textarea
+        <label>LEAVE A COMMENT:</label>
+        <input
         name="comment"
         placeholder='Leave a comment...'
         value={this.state.comment}
         onChange={e => this.change(e)}
         />
         <br />
+
+
+
         <button onClick={e => this.onSubmit(e)}>Submit</button>
+
 
       </form>  
     )
@@ -72,3 +79,5 @@ class Form extends React.Component {
 }
 
   export default Form;
+
+ 
