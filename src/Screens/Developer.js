@@ -19,9 +19,8 @@ class Developer extends Component {
             <Header/>     
             
             
-<div className="container4m">
+<div className="container f4m">
 
-{/* <form> */}
   <div className="form-group row">
     <div className="col-sm-10">
     <Form onSubmit={fields => this.onSubmit(fields)} />

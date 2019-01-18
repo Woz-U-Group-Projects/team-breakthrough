@@ -31,10 +31,10 @@ class Form extends React.Component {
     })
   };
 
-  handleSubmit(e) {
-    alert("Thanks!");
-    // e.preventDefault();
-  }
+  // handleSubmit(e) {
+  //   alert("Thanks!");
+  //   e.preventDefault();
+  // }
 
 
 
@@ -63,6 +63,7 @@ class Form extends React.Component {
         <label>EMAIL</label>
         <br />
         <input  className="inputS"
+        type="email"
         name="email"
         placeholder='Email'
         value={this.state.email}
