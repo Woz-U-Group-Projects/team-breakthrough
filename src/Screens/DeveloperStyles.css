@@ -3,20 +3,20 @@
     justify-content: center;
 }
 
-/* .ContactBackground {
-    background-image: url('../Images/BTthankYou.png');
+.ContactBackground {
+    background-image: url('../Images/BTthankYou2.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
     z-index: -1;
-} */
+}
 
 
-.FORMcontainer {
-    padding: 4%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container4m {
+    position: relative;
+    color: aquamarine;
+    margin-left: 33%;
+    margin-top: 8%;
 }
 
 .item3 {

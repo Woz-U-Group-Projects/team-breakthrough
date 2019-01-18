@@ -36,8 +36,9 @@ class Form extends React.Component {
   render() {
     return (
       <form>
-        <label>NAME</label>
-        <input className="blah blah blah"
+        <label>What's your NAME</label>
+        <br />
+        <input
         name="firstName"
         placeholder='First name'
         value={this.state.firstName}
@@ -51,7 +52,8 @@ class Form extends React.Component {
         onChange={e => this.change(e)}
         />
         <br />
-        <label>EMAIL</label>
+        <label>mind sharing your EMAIL</label>
+        <br />
         <input
         name="email"
         placeholder='Email'
@@ -59,7 +61,8 @@ class Form extends React.Component {
         onChange={e => this.change(e)}
         />
         <br />
-        <label>LEAVE A COMMENT:</label>
+        <label>Love our site? Tell us about it! <br />LEAVE A COMMENT:</label>
+        <br />
         <input
         name="comment"
         placeholder='Leave a comment...'
@@ -67,8 +70,6 @@ class Form extends React.Component {
         onChange={e => this.change(e)}
         />
         <br />
-
-
 
         <button onClick={e => this.onSubmit(e)}>Submit</button>
 
