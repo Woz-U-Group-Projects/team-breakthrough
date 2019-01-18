@@ -22,7 +22,7 @@ const Anders = () => (
       </header>
       <div className="container cont0">
         <div className="row row0">
-          <div className="col-lg-12">
+          <div className="col-lg-12 aboutme">
           <h3>About Me</h3>
           <section>
             I am Anders Kornkven.
@@ -35,6 +35,7 @@ const Anders = () => (
         </div>
       </div>
 
+      <h3 className="containerheader"> These are a few of my favorite places </h3>
       <div className="container cont1">
         <div className="row row1">
           <div className="col-lg-12 pics1">
@@ -78,7 +79,7 @@ const Anders = () => (
       </div>
 
       <div className="container footerdiv">
-      <h1> Thanks for looking at my page!</h1>
+      <h1> Check out the links below for more content</h1>
       add in links to social media accounts
         <div className="row row1">
           <div className="col-lg-12">

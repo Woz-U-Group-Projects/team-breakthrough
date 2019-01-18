@@ -29,6 +29,7 @@ class Form extends React.Component {
       email: '',
       comment: '',
     })
+    alert("Thanks!");
   };
 
   // handleSubmit(e) {
