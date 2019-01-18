@@ -3,16 +3,17 @@
     justify-content: center;
 }
 
-.ContactBackground {
+/* .ContactBackground {
     background-image: url('../Images/BTthankYou.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
     z-index: -1;
-}
+} */
 
 
-form {
+.FORMcontainer {
+    padding: 4%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
