@@ -79,6 +79,7 @@ const Anders = () => (
 
       <div className="container footerdiv">
       <h1> Thanks for looking at my page!</h1>
+      add in links to social media accounts
         <div className="row row1">
           <div className="col-lg-12">
             <footer className="footer">  
