@@ -21,17 +21,15 @@ const Anders = () => (
       </title>
       </header>
       <div className="container cont0">
-        <div className="row row1">
+        <div className="row row0">
           <div className="col-lg-12">
           <h3>About Me</h3>
           <section>
             I am Anders Kornkven.
-            I have the blessing and the curse of living all around the United States. <br />
-            I feel like I am from everywhere and nowhere at the same time. <br />
-            I was born in Illinois, but I've also lived in South Dakota, Colorado, Alaska, California, Ohio, and Wyoming (twice!). <br />
-            I currently call home Laramie, Wyoming.
-
-
+            I have had the blessing and the curse of living all around the United States. <br />
+            At times I feel like I am from everywhere and nowhere simultaneously. <br />
+            I was born in Illinois, but I've also lived in South Dakota, Colorado, Alaska, California, and Wyoming. <br />
+            I currently reside in Laramie, Wyoming.
           </section>
           </div>
         </div>
@@ -40,15 +38,26 @@ const Anders = () => (
       <div className="container cont1">
         <div className="row row1">
           <div className="col-lg-12 pics1">
-          <img className="img1" src={require ("../Images/Illinois.jpg")}/>
-          <figcaption>The Corn Fields of Illinois</figcaption>
-          <img className="img1" src={require ("../Images/South Dakota.jpg")}/>
-          <figcaption>Mount Rushmore, South Dakota</figcaption>
-          <img className="img1" src={require ("../Images/Colorado Springs.jpg")}/>
-          <figcaption> US Air Force Academy, Colorado Springs, Colorado</figcaption>
-
+            <img className="img1 img-responsive" src={require ("../Images/Illinois.jpg")}/>
+            <figcaption>The Corn Fields of Illinois</figcaption>
+            <img className="img1 img-responsive" src={require ("../Images/South Dakota.jpg")}/>
+            <figcaption>Mount Rushmore, South Dakota</figcaption>
+            <img className="img1 img-responsive" src={require ("../Images/Colorado Springs.jpg")}/>
+            <figcaption> US Air Force Academy, Colorado Springs, Colorado</figcaption>
           </div>
         </div>
+  
+        <div className="row row1">
+          <div className="col-lg-12 pics2">
+            <img className="img1" src={require ("../Images/Denali.jpg")}/>
+            <figcaption>Denali National Park, Alaska</figcaption>
+            <img className="img1" src={require ("../Images/Sundial Bridge.jpg")}/>
+            <figcaption>Sundial Bridge, Redding, California</figcaption>
+            <img className="img1" src={require ("../Images/Background.jpg")}/>
+            <figcaption>Wyoming</figcaption>
+
+          </div>
+        </div>    
       </div>
 
       <div className="container cont2">
@@ -68,23 +77,19 @@ const Anders = () => (
         </div>
       </div>
 
-      <div className="container-2 cont3">
+      <div className="container footerdiv">
+      <h1> Thanks for looking at my page!</h1>
         <div className="row row1">
-          <div className="col-lg-4">
-            <h3> content </h3>
-          </div>
-          <div className="col-lg-4">
-            <h3> content </h3>
-          </div>
-          <div className="col-lg-4">
-            <h3> content </h3>
+          <div className="col-lg-12">
+            <footer className="footer">  
+              <a className="item4" href="/">Home</a>
+              <a className="item4" href="/Anders">Anders</a>
+              <a className="item4" href="/Lori">Lori</a>
+              <a className="item4" href="/Developer">Contact Us</a>
+            </footer>
           </div>
         </div>
       </div>
-
-      <footer className="footer">
-        This is where the footer will be.
-      </footer>  
 
 
 
