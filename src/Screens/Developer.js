@@ -21,15 +21,15 @@ class Developer extends Component {
             
 <div className="container4m">
 
-<form>
-  <div class="form-group row">
-    <div class="col-sm-10">
+{/* <form> */}
+  <div className="form-group row">
+    <div className="col-sm-10">
     <Form onSubmit={fields => this.onSubmit(fields)} />
      
 
     </div>
   </div>
-</form>
+
 
             </div>
         </div>

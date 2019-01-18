@@ -31,49 +31,58 @@ class Form extends React.Component {
     })
   };
 
+  handleSubmit(e) {
+    alert("Thanks!");
+    // e.preventDefault();
+  }
+
 
 
   render() {
     return (
-      <form>
-        <label>What's your NAME</label>
+      <form onSubmit={this.handleSubmit}>
+      <h3 className="thanks">Thanks for stopping by!</h3>
+      <div className="thisForm">
+        <label>NAME</label>
         <br />
-        <input
+        <input className="inputS"
         name="firstName"
         placeholder='First name'
         value={this.state.firstName}
         onChange={e => this.change(e)}
         />
-        {/* <br /> */}
-        <input
+        <br />
+        <input className="inputS"
         name="lastName"
         placeholder='Last name'
         value={this.state.lastName}
         onChange={e => this.change(e)}
         />
         <br />
-        <label>mind sharing your EMAIL</label>
         <br />
-        <input
+        <label>EMAIL</label>
+        <br />
+        <input  className="inputS"
         name="email"
         placeholder='Email'
         value={this.state.email}
         onChange={e => this.change(e)}
         />
         <br />
-        <label>Love our site? Tell us about it! <br />LEAVE A COMMENT:</label>
         <br />
-        <input
+        <label>LEAVE A COMMENT:</label>
+        <br />
+        <input  className="inputS"
         name="comment"
-        placeholder='Leave a comment...'
+        placeholder='Comment...'
         value={this.state.comment}
         onChange={e => this.change(e)}
         />
         <br />
 
-        <button onClick={e => this.onSubmit(e)}>Submit</button>
+        <button className="elButton" onClick={e => this.onSubmit(e)}>Submit</button>
 
-
+      </div>
       </form>  
     )
   }

@@ -14,9 +14,21 @@
 
 .container4m {
     position: relative;
-    color: aquamarine;
+    /* color: rgb(155, 174, 174); */
+    color: rgba(196, 164, 95, 0.769);
     margin-left: 33%;
     margin-top: 8%;
+}
+
+.inputS {
+    background-color: transparent;
+    border:rgba(211, 144, 86, 0.529) dotted 1px;  
+}
+    
+
+.elButton {
+    background-color: transparent;
+    border: none;
 }
 
 .item3 {
@@ -25,5 +37,20 @@
     align-items: center;
 }
 
+form:before{
+    opacity: 0%;
+}
+
+form {
+animation: form;
+/* animation-delay: 3s; */
+animation-duration: 15s;
+/* animation-iteration-count: 3; */
+}
+
+@keyframes form{
+    0%      {opacity:-5}
+    100%    {opacity: 1}  
+}
 
 
