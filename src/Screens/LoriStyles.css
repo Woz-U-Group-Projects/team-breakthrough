@@ -1,16 +1,12 @@
 .LDiv {
     background-color: rgb(220, 220, 220);
     color: teal;
-    padding: 1%;
+    /* padding: 1%; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.col-lg-6 {
-    justify-content: left;
-}
-
-.animated {
-    color: pink;
+.col-lg-6 .col-lg-8 {
+    justify-items: left; 
 }
 
 .LDcontainer {
@@ -36,11 +32,6 @@
     justify-content: left;
   }
 
-  .skillset {
-    display:flex;
-    font-size: xx-large;
-    justify-content: left;
-  }
 
 .LDh1:hover {
     -ms-transform: scale(1.5);
@@ -65,12 +56,25 @@
    font-size: xx-large;
   }
 
-  .col-md-4 {
-      align-content: flex-start;
-  }
+  .col-lg-11 .col-lg-offset-1 {
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    /* max-width: 23.75rem; */
+    background-color: rgb(201, 206, 206);
+    border-radius: 3px;
+    box-shadow: 0 15px 35px rgb(7, 97, 99), 0 10px 15px rgb(7, 97, 99);
+/* 
+    display: inline-block;
+    justify-items: center;
+    margin: 0;
+    padding: 1%; */
+}
 
-  .logo {
+
+  /* .logo {
       background-color: black;
      margin-left: 60%;
-  }
+  } */
  

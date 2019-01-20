@@ -3,54 +3,86 @@
     justify-content: center;
 }
 
-.ContactBackground {
+.thanks {
+    font-size: 150%;
+}
+
+.thanks:before {
+    opacity: 1;
+}
+
+.thanks {
+    margin-top: 8%;
+    font-size: xx-large;
+    font-family: 'Covered By Your Grace', cursive;
+    animation: thanks;
+    animation-duration: 10s;
+    animation-iteration-count: 7;
+    padding-left: 1rem;
+    color: rgb(130, 113, 19);
+    z-index: -1;
+}
+
+@keyframes thanks{
+    0%      {opacity:1}
+    100%    {opacity: 0}  
+}
+
+.thanks:after{
+    opacity: -10;
+}
+
+
+.col-md-4{
+    display: block;
+    /* align-items: center; */
+    align-content: center;
+    /* margin-top: 1%; */
+    position: relative;
+    left: auto;
+    right: auto;
+    color: rgba(196, 164, 95, 0.769);
+    font-size: small;
+}
+
+.backgroundContainer {
     background-image: url('../Images/BTthankYou2.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
-    z-index: -1;
+    overflow: hidden;
 }
 
-
-.f4m {
-    position: relative;
-    /* color: rgb(155, 174, 174); */
-    color: rgba(196, 164, 95, 0.769);
-    margin-left: 33%;
-    margin-top: 8%;
-}
 
 .inputS {
     background-color: transparent;
-    border:rgba(211, 144, 86, 0.529) dotted 1px;  
+    border:rgba(109, 86, 12, 0.529) dotted 1px;  
 }
     
-
 .elButton {
     background-color: transparent;
     border: none;
 }
 
-.item3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-form:before{
+.thisForm:before{
     opacity: 0%;
 }
 
-form {
+.thisForm {
+/* display: fixed; */
 animation: form;
-/* animation-delay: 3s; */
 animation-duration: 15s;
-/* animation-iteration-count: 3; */
+
 }
 
 @keyframes form{
-    0%      {opacity:-5}
+    0%      {opacity:-10}
     100%    {opacity: 1}  
+}
+
+.thisForm::after {
+    opacity: 1;
 }
 
 

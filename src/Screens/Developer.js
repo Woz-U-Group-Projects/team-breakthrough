@@ -15,23 +15,16 @@ class Developer extends Component {
     
     render() {
         return (
-<div className="ContactBackground">
+<div className="backgroundContainer">
             <Header/>     
-            
-            
-<div className="container f4m">
+            <h2 className="thanks">Thanks for stopping by!</h2>
+            {/* col-md-offset-8 */}
+  <div className="col-md-offset-4 col-md-4 col-md-offset-4">
 
-  <div className="form-group row">
-    <div className="col-sm-10">
     <Form onSubmit={fields => this.onSubmit(fields)} />
-     
-
-    </div>
+  
   </div>
-
-
-            </div>
-        </div>
+</div>
         );
     }
 }

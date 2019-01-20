@@ -29,7 +29,7 @@ class Form extends React.Component {
       email: '',
       comment: '',
     })
-    alert("Thanks!");
+    alert("Thanks for your submission! JESUS LOVES YOU!");
   };
 
   // handleSubmit(e) {
@@ -41,8 +41,8 @@ class Form extends React.Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-      <h3 className="thanks">Thanks for stopping by!</h3>
+      // <form onSubmit={this.handleSubmit}>
+    <form>
       <div className="thisForm">
         <label>NAME</label>
         <br />
@@ -85,7 +85,7 @@ class Form extends React.Component {
         <button className="elButton" onClick={e => this.onSubmit(e)}>Submit</button>
 
       </div>
-      </form>  
+     </form>  
     )
   }
 }
