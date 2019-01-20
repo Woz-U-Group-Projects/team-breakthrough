@@ -25,17 +25,16 @@ const Anders = () => (
           <div className="col-lg-12 aboutme">
           <h3>About Me</h3>
           <section>
-            I am Anders Kornkven.
-            I have had the blessing and the curse of living all around the United States. <br />
-            At times I feel like I am from everywhere and nowhere simultaneously. <br />
-            I was born in Illinois, but I've also lived in South Dakota, Colorado, Alaska, California, and Wyoming. <br />
+            I have had the blessing and the curse of moving all around the United States. <br />
+            At times I can't decide if I am from everywhere I've lived or nowhere. <br />
+            I was born in Illinois, but I've also lived in South Dakota, Colorado, Alaska, California, and Wyoming (twice!). <br />
             I currently reside in Laramie, Wyoming.
           </section>
           </div>
         </div>
       </div>
 
-      <h3 className="containerheader"> These are a few of my favorite places </h3>
+      <h3 className="containerheader"> These are my favorite places </h3>
       <div className="container cont1">
         <div className="row row1">
           <div className="col-lg-12 pics1">
@@ -55,32 +54,57 @@ const Anders = () => (
             <img className="img1" src={require ("../Images/Sundial Bridge.jpg")}/>
             <figcaption>Sundial Bridge, Redding, California</figcaption>
             <img className="img1" src={require ("../Images/Background.jpg")}/>
-            <figcaption>Wyoming</figcaption>
+            <figcaption>No man's land, Wyoming</figcaption>
 
           </div>
         </div>    
       </div>
 
+      <div className="container cont00">  
+        <div className="row row1">
+          <div className="col-lg-1">
+            <img className="img2" src={require ("../Images/brLOGOsmall.png")}/>
+          </div>
+          <div className="col-lg-4 colbor">
+            <h3> Coding Story </h3>
+            <section>
+              I started coding two years ago. I had no idea what I was getting in to at the time,
+              and still feel that way! I began learning Python online - took a couple classes - 
+              then decided to jump head first into a bootcamp. This brought me to Bethel Tech.
+            </section>  
+          </div>
+        </div>
+      </div>  
+      
       <div className="container cont2">
         <div className="row row1">
           <div className="col-lg-4">
             <h3>Skills</h3>
-            <section>My name is Anders Kornkven. I live in Laramie, Wyoming.</section>
+            <section>Java | Spring MVC | Reactjs | HTML | CSS</section>
           </div>
           <div className="col-lg-4">
             <h3>What I am Learning</h3>
-            <section> How big does this space get. I want to see the size of this box. </section>
+            <section>Python | Javascript | Animations </section>
           </div>
           <div className="col-lg-4">
             <h3>Goals</h3>
-            <section>This is the third box in the row. </section>
+            <section>Continue to learn and grow. Build useful apps. </section>
           </div>
         </div>
       </div>
 
       <div className="container footerdiv">
-      <h1> Check out the links below for more content</h1>
-      add in links to social media accounts
+        <h3> Check out the links below for more content</h3>
+        <div className="row row1">
+          <div className="col-lg-12">
+            <footer className="footer">  
+            <a className="item4" href="https://github.com/Anders44/"><i className="fab fa-github-square"></i></a>
+            <a className="item4" href="https://www.linkedin.com/in/anders-kornkven/"><i className="fab fa-linkedin"></i></a>
+            <a className="item4" href="https://www.instagram.com/anders.kornkven/"><i className="fab fa-instagram"></i></a>
+            </footer>
+          </div>
+        </div>
+        
         <div className="row row1">
           <div className="col-lg-12">
             <footer className="footer">  
