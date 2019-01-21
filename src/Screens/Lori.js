@@ -5,7 +5,7 @@ import LoriStyles from "./LoriStyles.css";
 
 const Lori = () => (
   <div className="LDiv grid">
-    <Header />
+  <Header />
 
     <div className="jumbotron text-center">
      

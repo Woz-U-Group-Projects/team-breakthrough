@@ -10,7 +10,6 @@ class Developer extends Component {
     
     onSubmit = fields => {
         this.setState({fields});
-        console.log('App comp got: ', fields);
     };
     
     render() {
