@@ -1,257 +1,156 @@
-/* PAGE IS WORKING!! 
-????? ARE YOU SURE YOU WANT TO MAKE ANY CHANGES??????? */
+.Home .grid {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1em;
+}
 
-.Home {
-    margin: 0;
-    text-align: center;
+.HomeImage {
+  position: absolute;
+  background-image: url("../Images/BThome.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  height: 100vh;
+  width: auto;
+  min-height: 350px;
+  z-index: -1;
 }
 
 .brLogo {
-    /* height: 200px;
-    width: 200px; */
-    width: 20%;
-    position: absolute;
-    z-index: 1;
-    margin-left: 63%;
-    top: 35%; 
-    animation: img;
-    animation-delay: 3s;
-    animation-duration: 10s;
-    animation-iteration-count: 3;
-    overflow: hidden;
+  height: auto;
+  width: 50px;
+  width: 20%;
+  position: absolute;
+  z-index: 1;
+  margin-left: 63%;
+  top: 33%;
+  animation: img;
+  animation-delay: 3s;
+  animation-duration: 10s;
+  animation-iteration-count: 3;
+  overflow: hidden;
 }
 
-@keyframes img{ 
-    0%      {transform:rotateY(360deg)}
+@keyframes img {
+  0% {
+    transform: rotateY(360deg);
+  }
 }
 
-p {
-    font-size: large;
-    margin-left: 55%;
+.box1:before {
+  width: 25%;
 }
-.HomeImage {
-    background-image: url('../Images/BThome.png');
+.box1 {
+  background: rgb(46, 62, 104);
+  width: 20%;
+  padding-bottom: 20%;
+  position: absolute;
+  z-index: 0;
+  margin-left: 63%;
+  top: 30%;
+  transform: rotate(35deg);
+  animation: ak;
+  animation-duration: 3s;
+}
+
+@keyframes ak {
+  0% {
+    left: -150%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+.box1:after {
+  display: block;
+  padding-bottom: 100%;
+}
+
+.box2:before {
+  width: 25%;
+}
+
+.box2 {
+  background: rgb(184, 186, 189);
+  width: 20%;
+  padding-bottom: 20%;
+  position: absolute;
+  z-index: 0;
+  margin-left: 63%;
+  top: 30%;
+  transform: rotate(40deg);
+  animation: ld;
+  animation-duration: 3s;
+}
+
+/* HOMEPAGE ANIMATIONS */
+@keyframes ld {
+  0% {
+    right: -150%;
+  }
+  100% {
+    right: 17%;
+  }
+}
+
+.box2:after {
+  display: block;
+  padding-bottom: 100%;
+}
+
+.box3:before {
+  width: 25%;
+}
+
+.box3 {
+  background: rgb(2, 8, 24);
+  width: 20%;
+  padding-bottom: 20%;
+  position: absolute;
+  z-index: 0;
+  margin-left: 63%;
+  top: 30%;
+  transform: rotate(45deg);
+  animation: ak;
+  animation-duration: 3s;
+}
+
+@keyframes ak {
+  0% {
+    left: -150%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+.box3::after {
+  display: block;
+  padding-bottom: 100%;
+}
+
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns:
+      1fr
+      repeat(2, minmax(auto, 25em)) 1fr;
+  }
+
+  .HomeImage {
+    background-image: url("../Images/BThome.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
     overflow: hidden;
-    /* position: fixed; */ 
+  }
+
 }
-
-.box1:before{
-    width: 25%;
-}
-.box1 {
-    background:   rgb(46, 62, 104);
-    width: 20%;
-    padding-bottom: 20%;
-    position: absolute;
-    z-index: 0;
-    margin-left: 63%;
-    top: 30%;
-    transform: rotate(35deg);
-    animation: ak;
-    animation-duration: 3s;
-   
-}
-
-@keyframes ak{
-    0%      {left: -150%}
-    100%    {left: 0%}  
-}
-
-
-.box1:after{
-    display: block;
-    padding-bottom: 100%;
-}
-
-.box2:before{
-    width: 25%;
-}
-
-.box2 {
-    background: rgb(184, 186, 189);   
-    width: 20%;
-    padding-bottom: 20%;
-    position: absolute;
-    z-index: 0;
-    margin-left: 63%;
-    top: 30%;
-    transform: rotate(40deg);
-    animation: ld;
-    animation-duration: 3s;
-}
-
-/* HOMEPAGE ANIMATIONS */
-@keyframes ld{
-   0%      {right: -150%}
-   100%    {right: 17%}
-}
-
-.box2:after {
-    display: block;
-    padding-bottom: 100%;
-}
-
-.box3:before {
-    width: 25%;
-}
-
-.box3 {
-    /* background: rgb(165, 166, 169); */
-    background: rgb(2, 8, 24);
-    width: 20%;
-    padding-bottom: 20%;
-    position: absolute;
-    z-index: 0;
-    margin-left: 63%;
-    top: 30%;
-    transform: rotate(45deg);
-    animation: ak;
-    animation-duration: 3s;
-   
-}
-
-@keyframes ak{
-    0%      {left: -150%}
-    100%    {left: 0%}  
-}
-
-.box3::after{
-    display: block;
-    padding-bottom: 100%;
-}
-
-.Developers {
-    vertical-align: -webkit-baseline-middle;
-}
-
-
-
-
-
-/* ??????????????????/ starting point ???????????????? */
-/* 
-.brLogo {
-    /* height: 200px;
-    width: 200px; */
-    /* width: 20%;
-    position: absolute;
-    z-index: 1;
-    margin-left: 63%;
-    top: 35%; 
-    animation: img;
-    animation-delay: 3s;
-    animation-duration: 10s;
-    animation-iteration-count: 3;
-    overflow: hidden;
-} */
-/* 
-@keyframes img{ 
-    0%      {transform:rotateY(360deg)}
-}
-
-p {
-    font-size: large;
-    margin-left: 55%;
-}
-.HomeImage {
-    background-image: url('../Images/BThome.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    overflow: hidden; */
-    /* position: fixed; */ 
-/* }
-
-.box1:before{
-    width: 25%;
-}
-.box1 {
-    background:   rgb(46, 62, 104);
-    width: 20%;
-    padding-bottom: 20%;
-    position: absolute;
-    z-index: 0;
-    margin-left: 63%;
-    top: 30%;
-    transform: rotate(35deg);
-    animation: ak;
-    animation-duration: 3s;
-   
-}
-
-@keyframes ak{
-    0%      {left: -150%}
-    100%    {left: 0%}  
-}
-
-
-.box1:after{
-    display: block;
-    padding-bottom: 100%;
-}
-
-.box2:before{
-    width: 25%;
-}
-
-.box2 {
-    background: rgb(184, 186, 189);   
-    width: 20%;
-    padding-bottom: 20%;
-    position: absolute;
-    z-index: 0;
-    margin-left: 63%;
-    top: 30%;
-    transform: rotate(40deg);
-    animation: ld;
-    animation-duration: 3s;
-} */
-
-/* HOMEPAGE ANIMATIONS */
-/* @keyframes ld{
-   0%      {right: -150%}
-   100%    {right: 17%}
-}
-
-.box2:after {
-    display: block;
-    padding-bottom: 100%;
-}
-
-.box3:before {
-    width: 25%;
-}
-
-.box3 { */
-    /* background: rgb(165, 166, 169); */
-    /* background: rgb(2, 8, 24);
-    width: 20%;
-    padding-bottom: 20%;
-    position: absolute;
-    z-index: 0;
-    margin-left: 63%;
-    top: 30%;
-    transform: rotate(45deg);
-    animation: ak;
-    animation-duration: 3s;
-   
-}
-
-@keyframes ak{
-    0%      {left: -150%}
-    100%    {left: 0%}  
-}
-
-.box3::after{
-    display: block;
-    padding-bottom: 100%;
-}
-
-.Developers {
-    vertical-align: -webkit-baseline-middle;
-}
- */
