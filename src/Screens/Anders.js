@@ -26,15 +26,15 @@ const Anders = () => (
           <h3>About Me</h3>
           <section>
             I have had the blessing and the curse of moving all around the United States. <br />
-            At times I can't decide if I am from everywhere I've lived or nowhere. <br />
-            I was born in Illinois, but I've also lived in South Dakota, Colorado, Alaska, California, and Wyoming (twice!). <br />
+            At times I can't decide if I am from everywhere I've ever lived or nowhere at all. <br />
+            I was born in Illinois, but I've also lived in South Dakota, Colorado, Alaska, California, and Wyoming (a couple times!). <br />
             I currently reside in Laramie, Wyoming.
           </section>
           </div>
         </div>
       </div>
 
-      <h3 className="containerheader"> These are my favorite places </h3>
+      <h3 className="containerheader"> These Are My Favorite Places </h3>
       <div className="container cont1">
         <div className="row row1">
           <div className="col-lg-12 pics1">
@@ -69,7 +69,7 @@ const Anders = () => (
             <h3> Coding Story </h3>
             <section>
               I started coding two years ago. I had no idea what I was getting in to at the time,
-              and still feel that way! I began learning Python online - took a couple classes - 
+              and I still feel that way! I began learning Python online - took a couple classes - 
               then decided to jump head first into a bootcamp. This brought me to Bethel Tech.
             </section>  
           </div>
@@ -78,17 +78,19 @@ const Anders = () => (
       
       <div className="container cont2">
         <div className="row row1">
-          <div className="col-lg-4">
+          <div className="col-lg-4 abox">
             <h3>Skills</h3>
             <section>Java | Spring MVC | Reactjs | HTML | CSS</section>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 abox">
             <h3>What I am Learning</h3>
             <section>Python | Javascript | Animations </section>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 abox">
             <h3>Goals</h3>
-            <section>Continue to learn and grow. Build useful apps. </section>
+            <section>Learn Python and Java really well. Develop cool and useful apps.
+            Keep getting better.   
+            </section>
           </div>
         </div>
       </div>

@@ -63,7 +63,7 @@ a {
 .cont0 {
     display: flex;
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px;
     justify-content: flex-start;
     background-color:#e0e0eb;
 }
@@ -110,9 +110,10 @@ a {
 .cont2 {
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #c1c1d7;
     color: #083985;
+    padding-bottom: 20px;
 }
 
 .cont3 {
@@ -161,6 +162,10 @@ a {
 figcaption {
     display: flex;
     justify-content: center;
+}
+
+.abox {
+    width: 100%;
 }
 
 .footerdiv {
