@@ -26,7 +26,7 @@ const Anders = () => (
           <h3>About Me</h3>
           <section>
             I have had the blessing and the curse of moving all around the United States. <br />
-            At times I can't decide if I am from everywhere I've ever lived or nowhere at all. <br />
+            At times I can't decide if I am from everywhere I've ever lived or nowhere. <br />
             I was born in Illinois, but I've also lived in South Dakota, Colorado, Alaska, California, and Wyoming (a couple times!). <br />
             I currently reside in Laramie, Wyoming.
           </section>

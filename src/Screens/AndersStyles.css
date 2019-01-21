@@ -28,6 +28,17 @@
     color: black;
 }
 
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+}
+
 a {
     color: white;
     border-radius: 10px !important;
@@ -101,8 +112,8 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    max-width: 100%;
-    height: 100px;
+    width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -152,8 +163,8 @@ a {
 
 .img1 {
     display: flex;
-    max-width: 100%;
-    height: 300px;
+    width: 100%;
+    height: auto;
     display: block;
     padding: 10px 10px;
 }

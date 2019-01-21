@@ -14,12 +14,7 @@ const Home = () => (
             <div className="box1"></div>
             <div className="box2"></div>
             <div className="box3"></div>
-        </div>
- 
-        {/* <footer className="Developers">
-            <p>Click the links above to meet TEAM BREAKTHROUGH</p>
-        </footer> */}
-        
+        </div>       
   </div>
 </div>
   
