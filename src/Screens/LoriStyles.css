@@ -1,8 +1,18 @@
 .LDiv {
+    margin: 0;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.5;
+    /* ... */
     background-color: rgb(220, 220, 220);
     color: teal;
-    /* padding: 1%; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.LDClove2code {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .col-lg-6 .col-lg-8 {
@@ -18,21 +28,66 @@
     background-image: url('../Images/bkgdCodeBlue.png');
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    opacity: 1%;
+    height: 450px;
+    width: 100%;
+   
     /* no-repeat center center/cover */
     font-family: 'Covered By Your Grace', cursive;
     color: rgb(7, 80, 80);
+    /* z-index: -1; */
+}
+
+.LDh1 {
+    padding-bottom: 1.5em;
 }
 
 
-.skills {
-    display:flex;
-    font-size: xx-large;
-    justify-content: left;
-  }
+.skills-a {
+    color: rgb(201, 206, 206);
+    background:rgb(7, 80, 80);
+    padding: 1.5em 2em;
+    margin-bottom: 1em;
+}
 
+.skills-b {
+    background-color: rgba(229, 244, 244, 0.851);
+    padding: 1.5em 2em;
+}
 
+.skills-c {
+    margin: 1%;
+    padding: 1em;
+    background: transparent;
+    color: teal;
+}
+
+.skills-c .breakthroughGreyTeal {
+    width: 50%;
+    height: auto;
+}
+
+.skills-d .story{
+    padding: 2em 1em 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    font-size: large;
+    text-align: center;
+    background-color: rgb(201, 206, 206);
+    border-radius: 3px;
+    box-shadow: 0 15px 35px rgb(7, 97, 99), 0 10px 15px rgb(7, 97, 99);
+    /* background-color: rgb(201, 206, 206); */
+    color:rgb(7, 80, 80);
+    
+}
+/* 
+.story {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: auto;
+    font-size: large;
+    justify-items: auto;
+} */
+
+/* 
 .LDh1:hover {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
@@ -45,15 +100,15 @@
     font-size: large;
     justify-items: auto;
 }
-
+/* 
 .LDClove2code {
     align-self: center;
 }
 
   .me {
-   align-content: flex-end;
+   align-content: flex-end; */
    /* flex-wrap: wrap; */
-   font-size: xx-large;
+   /* font-size: xx-large;
   }
 
   .col-lg-11 .col-lg-offset-1 {
@@ -61,16 +116,16 @@
     margin-top: 2rem;
     margin-right: auto;
     margin-left: auto;
-    /* max-width: 23.75rem; */
+    max-width: 23.75rem;
     background-color: rgb(201, 206, 206);
     border-radius: 3px;
-    box-shadow: 0 15px 35px rgb(7, 97, 99), 0 10px 15px rgb(7, 97, 99);
+    box-shadow: 0 15px 35px rgb(7, 97, 99), 0 10px 15px rgb(7, 97, 99); */
 /* 
     display: inline-block;
     justify-items: center;
     margin: 0;
     padding: 1%; */
-}
+/* } */
 
 
   /* .logo {

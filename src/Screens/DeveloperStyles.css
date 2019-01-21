@@ -42,13 +42,7 @@
     left: auto;
     right: auto;
     color: rgba(196, 164, 95, 0.769);
-<<<<<<< HEAD
     font-size: small;
-=======
-    max-width: 100vh;
-    margin-left: 33%;
-    margin-top: 8%;
->>>>>>> 130f8441ea15832dd9c21caa6baf08ef9ad54577
 }
 
 .backgroundContainer {
@@ -64,10 +58,19 @@
     background-color: transparent;
     border:rgba(109, 86, 12, 0.529) dotted 1px;  
 }
+
+.inputS:hover {
+    background-color: rgba(196, 164, 95, 0.276)
+}
     
 .elButton {
     background-color: transparent;
     border: none;
+}
+
+.elButton:hover {
+    background-color: teal;
+    color: rgb(5, 34, 34);
 }
 
 
