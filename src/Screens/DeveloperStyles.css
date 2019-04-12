@@ -1,92 +1,102 @@
 .thanks {
-    font-size: 150%;
+  font-size: 150%;
 }
 
 .thanks:before {
-    opacity: 1;
+  opacity: 1;
 }
 
 .thanks {
-    margin-top: 8%;
-    font-size: xx-large;
-    font-family: 'Covered By Your Grace', cursive;
-    animation: thanks;
-    animation-duration: 10s;
-    animation-iteration-count: 7;
-    padding-left: 1rem;
-    color: rgb(130, 113, 19);
-    z-index: -1;
+  margin-top: 1%;
+  margin-left: 5%;
+  font-size: xx-large;
+  font-family: "Covered By Your Grace", cursive;
+  animation: thanks;
+  animation-duration: 10s;
+  animation-iteration-count: 7;
+  padding-left: 1rem;
+  color: rgb(130, 113, 19);
+  z-index: -1;
 }
 
-@keyframes thanks{
-    0%      {opacity:1}
-    100%    {opacity: 0}  
+@keyframes thanks {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-.thanks:after{
-    opacity: -10;
+.thanks:after {
+  opacity: -10;
 }
 
-
-.col-md-4{
-    display: block;
-    /* align-items: center; */
-    align-content: center;
-    /* margin-top: 1%; */
-    position: relative;
-    left: auto;
-    right: auto;
-    color: rgba(196, 164, 95, 0.769);
-    font-size: small;
+.col-md-4 {
+  display: block;
+  /* align-items: center; */
+  align-content: center;
+  /* margin-top: 1%; */
+  position: relative;
+  left: auto;
+  right: auto;
+  color: rgba(196, 164, 95, 0.769);
+  font-size: small;
 }
 
 .backgroundContainer {
-    background-image: url('../Images/BTthankYou2.png');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    overflow: hidden;
-}
-
-
-.inputS {
-    background-color: transparent;
-    border:rgba(109, 86, 12, 0.529) dotted 1px;  
-}
-
-.inputS:hover {
-    background-color: rgba(196, 164, 95, 0.276)
-}
-    
-.elButton {
-    background-color: transparent;
-    border: none;
-}
-
-.elButton:hover {
-    background-color: teal;
-    color: rgb(5, 34, 34);
-}
-
-
-.thisForm:before{
-    opacity: 0%;
+  background-image: url("../Images/BTthankYou2.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .thisForm {
-/* display: fixed; */
-animation: form;
-animation-duration: 15s;
-
+  margin-left: 40%;
+  margin-top: 0%;
+  display: block;
+  z-index: 3;
 }
 
-@keyframes form{
-    0%      {opacity:-10}
-    100%    {opacity: 1}  
+.inputS {
+  background-color: transparent;
+  border: rgba(109, 86, 12, 0.529) dotted 1px;
+}
+
+.inputS:hover {
+  background-color: rgba(196, 164, 95, 0.276);
+}
+
+.elButton {
+  background-color: transparent;
+  border: none;
+}
+
+.elButton:hover {
+  background-color: teal;
+  color: rgb(5, 34, 34);
+}
+
+.thisForm:before {
+  opacity: 0%;
+}
+
+.thisForm {
+  /* display: fixed; */
+  animation: form;
+  animation-duration: 15s;
+}
+
+@keyframes form {
+  0% {
+    opacity: -10;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .thisForm::after {
-    opacity: 1;
+  opacity: 1;
 }
-
-
