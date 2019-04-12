@@ -7,7 +7,7 @@
 }
 
 .thanks {
-  margin-top: 1%;
+  margin-top: 10%;
   margin-left: 5%;
   font-size: xx-large;
   font-family: "Covered By Your Grace", cursive;
@@ -53,8 +53,7 @@
 }
 
 .thisForm {
-  margin-left: 40%;
-  margin-top: 0%;
+  margin-left: 10%;
   display: block;
   z-index: 3;
 }
